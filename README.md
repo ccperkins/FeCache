@@ -32,7 +32,7 @@ only removed (pruned) when retrieval attempts are made.
 #!java
 
 		FeCache<String, TestMessage> cache = new FeCache<> (new FeCacheManagementPolicy(LifeLengthRule.EXPIRY_TIME_CONSTANT));
-```
+```;
 
 		
     3. Then insert entries, Given a TestMessage entry called msg and an expiry time in 
